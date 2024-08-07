@@ -10,6 +10,10 @@ That Python program firstly pulls news from RSS feeds of each country's news web
 It is based on Türkiye's BNTIndex so therefore there are Iran, Iraq, Greece, Egypt, Syria, Bulgaria, Russia, Ukraine, Azerbaijan and Armenia.
 I am planning to add more countries' BNTIndex, it is an initial version.
 
+You need to install these dependencies:
+For pytorch: ```pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124```
+```pip feedparser datetime python-dateutil transformers googletrans pandas torch```
+
 <div align="center">
 <img width="575" alt="image" src="bnti.png">
 </div>
